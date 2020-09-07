@@ -17,6 +17,8 @@ import { MatCardModule } from '@angular/material/card';
 
 import { FuncionarioComponent, ListagemComponent, LancamentoComponent } from './components';
 
+import { HttpUtilService, LancamentoService } from '../shared';
+
 @NgModule({
   declarations: [
     FuncionarioComponent,
@@ -38,6 +40,10 @@ import { FuncionarioComponent, ListagemComponent, LancamentoComponent } from './
     MatPaginatorModule,
     MatSortModule,
     MatCardModule
+  ],
+  providers: [
+    HttpUtilService,
+    LancamentoService
   ]
 })
 export class FuncionarioModule { }
