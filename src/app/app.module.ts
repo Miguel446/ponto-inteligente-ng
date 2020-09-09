@@ -17,6 +17,7 @@ import {
   CadastroPfRoutingModule
 } from './autenticacao';
 import { FuncionarioModule, FuncionarioRoutingModule } from './funcionario';
+import { AdminModule, AdminRoutingModule } from './admin';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -37,6 +38,8 @@ import { AppRoutingModule } from './app-routing.module';
     CadastroPfRoutingModule,
     FuncionarioModule,
     FuncionarioRoutingModule,
+    AdminModule,
+    AdminRoutingModule,
 
     AppRoutingModule
   ],
