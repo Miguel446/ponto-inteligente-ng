@@ -51,6 +51,7 @@ import {
   imports: [
     CommonModule,
     RouterModule,
+    SharedModule,
     FlexLayoutModule,
     ReactiveFormsModule,
     FormsModule,
@@ -67,7 +68,6 @@ import {
     MatNativeDateModule,
     MatDialogModule,
     MatPaginatorModule,
-    MatPaginatorIntl,
     MatSortModule
   ],
   providers: [
